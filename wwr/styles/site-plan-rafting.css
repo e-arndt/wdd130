@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Yantramanav&display=swap');
+
+
+
+.font1 {
+    font-family: 'Dosis', sans-serif;
+}
+
+.font2 {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+:root {
+    --primary-color: #22DEFA;
+    --secondary-color: #3981FE;
+    --tertiary-color: #001959;
+    --accent1-color: #FEFD13;
+    --accent2-color: #F60201;
+
+    --head-font: 'Dosis', sans-serif;
+    --para-font: 'Yantramanav', sans-serif;
+
+    --nav-background-color: #3981FE;
+    --nav-link-color: #22DEFA;
+    --nav-hover-link-color: #001959;
+    --nav-hover-background-color: #FEFD13;
+}
+
+body {
+    font-family: var(--para-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--head-font);
+    color: var(--tertiary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.box {
+    height: 30px;
+    width: 140px;
+    margin-bottom: 4px;
+    border: 2px solid black;
+  }
+  
+  .skyblue {
+    background-color: #22DEFA;
+  }
+  
+  .azure {
+    background-color: #3981FE;
+  }
+  
+  .pennblue {
+    background-color: #001959;
+  }
+
+  .yellow {
+    background-color: #FEFD13;
+  }
+
+  .offred {
+    background-color: #F60201;
+  }
