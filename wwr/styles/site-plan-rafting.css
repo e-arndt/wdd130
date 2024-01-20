@@ -17,8 +17,8 @@
     --accent1-color: #FEFD13;
     --accent2-color: #F60201;
 
-    --head-font: 'Dosis', sans-serif;
-    --para-font: 'Yantramanav', sans-serif;
+    --heading-font: 'Dosis', sans-serif;
+    --paragraph-font: 'Yantramanav', sans-serif;
 
     --nav-background-color: #3981FE;
     --nav-link-color: #22DEFA;
@@ -27,13 +27,13 @@
 }
 
 body {
-    font-family: var(--para-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--head-font);
+    font-family: var(--heading-font);
     color: var(--tertiary-color);
 }
 
