@@ -76,21 +76,21 @@ nav a:hover {
   }
   
   .skyblue {
-    background-color: #22DEFA;
+    background-color: var(--primary-color);
   }
   
   .azure {
-    background-color: #3981FE;
+    background-color: var(--secondary-color);
   }
   
   .pennblue {
-    background-color: #001959;
+    background-color: var(--tertiary-color);
   }
 
   .yellow {
-    background-color: #FEFD13;
+    background-color: var(--accent1-color);
   }
 
   .offred {
-    background-color: #F60201;
+    background-color: var(--accent2-color);
   }
