@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Yantramanav&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Poppins, Arial, sans-serif;
+    color: #fe7272;
+    background: #0e0c0c;
+}
+
+header {
+    margin: 30px auto;
+    width: 800px;
+}
+
+header h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: .5rem;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: .5rem;
+    border: 2px solid rgba(255, 156, 156, 0.801);
+    border-radius: 0.5rem;
+    background-color: #260b0b;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .2rem;
+    margin: .85rem;
+    border: 2px solid rgba(255, 156, 156, 0.801);
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+legend {
+    padding: .25rem;
+    color: white;
+    font-size: 1.5em;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 1.2em;
+    border-radius: .5rem;
+}
+
+label {
+    text-align: left;
+    margin: 0 50px;
+}
+
+input, select, textarea {
+    padding: .25rem;
+    font-size: 1.2em;
+    margin: 0 50px;
+    background-color: ivory;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.spacer {
+    margin-bottom: 15px;
+}
+
+button {
+    margin: .5rem 200px;
+    background-color: ivory;
+    color: #000000;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+button:hover {
+    margin: .5rem 200px;
+    background-color: #fe7272;
+    color: ivory;
+}
+
+footer {
+    margin: 2rem auto 0;
+    width: 650px;
+    text-align: center;
+    color: ivory;
+    font-size: .8rem;
+    border-top: 2px solid rgba(255, 156, 156, 0.801);
+	bottom: 0;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1.5fr 2fr;
+    margin: .3rem 0 .5rem;
+}
