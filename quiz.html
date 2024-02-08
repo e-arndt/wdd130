@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz Form</title>
+    <meta name="description" content="A form page that asks questions about HTML and CSS | WDD 130 class asignment">
+    <meta name="author" content="Eric Arndt">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+        <h1>Level 1 - HTML and CSS Quiz</h1>
+    </header>
+    
+    <main>
+        <form>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column2">
+                    <label for="q1">1. What does the acronym HTML stand for?</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="form-item column2">
+                    <label for="q2">2. What does the acronym CSS stand for?</label>
+                    <input type="text" id="q2" name="q2">
+                </div>
+                <div class="form-item column1">
+                    <label for="q3">3. Which of the following is a valid CSS comment?</label>
+                    <select id="q3" name="q3">
+                        <option value="Select">--Select an Answer--</option>
+                        <option value="C#">/// My Comment ///</option>
+                        <option value="Python"># My Comment #</option>
+                        <option value="VB">' My Comment '</option>
+                        <option value="CSS">/* My Comment */</option>
+                        <option value="HTML">!-- My Comment --</option>
+                        <option value="ErLang">% My Comment %</option>
+                        <option value="Haskell">-- My Comment --</option>
+                        <option value="other">! My Comment !</option>
+                        <option value="other2">$ My Comment $</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="q4">4. What is the bottom margin in this declaration?</label>
+                    <p>margin: 10px 5px 15px;</p>
+                    <input type="number" id="q4" name="q4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 | HTML Form - Quiz Activity | Eric Arndt</p>
+    </footer>
+
+  </body>
+  <!--Last modified on 02/01/2024-->
+
+</html>
