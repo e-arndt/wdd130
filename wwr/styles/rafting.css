@@ -83,6 +83,8 @@ header nav a:hover {
     left: 120px;
 }
 
+
+
 .hero article {
     position: absolute;
     top: 430px;
@@ -104,6 +106,13 @@ header nav a:hover {
     margin-left: 5px;
 }
 
+.map {
+    width: 305px; 
+    height: auto;
+    float: right;
+    border: 2px solid var(--tertiary-color);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--tertiary-color);
@@ -120,6 +129,24 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     color: var(--tertiary-color);
+}
+
+.c1 {
+    font-size: 1.15rem;
+    margin: 0 0 0 0;
+    padding: .2em;
+}
+
+.c2 {
+    font-size: 1.15rem;
+    margin: 0 0 0 2em;
+    padding-top: .4em;
+}
+
+.c3 {
+    font-size: 1.15rem;
+    margin: 0 0 0 6.4em;
+    padding-top: .4em;
 }
 
 
@@ -175,6 +202,8 @@ p {
     grid-gap: 15px;
     
 }
+
+
 
 .gallery img {
     display: block;
@@ -234,6 +263,107 @@ p {
     margin-right: auto;
 }
 
+.propic5 {
+    grid-column: 2;
+    grid-row: 4;
+    margin-left: 3rem;
+    margin-right: auto;
+}
+
+.propic6 {
+    grid-column: 3;
+    grid-row: 4;
+    margin-left: 2.8rem;
+    margin-right: auto;
+}
+
+.propic4 {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ibanner h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+form {
+    width: 750px;
+    margin: 0 auto;
+    padding: .5rem;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .2rem;
+    margin: .85rem;
+    border: 2px solid var(--primary-color);
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+legend {
+    padding: .25rem;
+    color: white;
+    font-size: 1.5em;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 1.2em;
+    border-radius: .5rem;
+}
+
+label {
+    text-align: left;
+    margin: 0 50px;
+}
+
+input, select {
+    padding: .25rem;
+    font-size: 1.2em;
+    margin: 0 50px;
+    background-color: ivory;
+}
+
+textarea {
+    padding: .25rem;
+    font-size: 1em;
+    margin: 0 50px;
+    background-color: ivory;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+
+button {
+    margin: .5rem 250px;
+    background-color: ivory;
+    color: #000000;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+button:hover {
+    margin: .5rem 250px;
+    background-color: var(--accent2-color);
+    color: ivory;
+}
+
+
 .foot {
     margin-top: 30px;
     display: grid;
@@ -276,4 +406,47 @@ a {
     border: 2px solid var(--tertiary-color);
     padding: 1rem;
     background-color: rgba(145, 218, 238, 0.8);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.column1 {
+    margin: 0 .75rem .5rem;
+    
+}
+
+.column1 p {
+    margin: 0 .75rem .5rem;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.column1 label {
+    margin: 0 0 0 -2rem;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.check {
+    padding: 1rem;
+}
+
+.check input {
+    margin: 0 0 .25rem 1.25rem;
+    
+}
+
+.check label {
+    font-size: 1.05em;
+    margin: 0 0 1rem .75rem;
+    
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .3rem 0 .5rem;
 }

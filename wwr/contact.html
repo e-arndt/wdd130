@@ -1,0 +1,163 @@
+<!doctype html>
+
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade Mountain Whitewater Rafting | Contact page</title>
+    <meta name="description" content="Contact page of Whitewater Rafting Webpage created by Eric Arndt for BYUi course WDD-130 to learn HTML and CSS.">
+    <meta name="author" content="Eric Arndt">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+        <img src="images/cascade-mountain-wwr.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Trips</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hero">
+            <h1>Cascade Mountain Whitewater Rafting</h1>
+            <img src="images/hero-image1.jpg" alt="Background image">
+            <article class="box">
+                <h3 class="box">Contact Us:</h3>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4208.223465675647!2d-121.83464014772596!3d47.54132855068092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1707371161818!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <p class="c1">ADDRESS: 6501 Railroad Ave, Snoqualmie, WA 98065</p>
+                    <p class="c2">PHONE #: (425) 555-2556</p>
+                    <p class="c3">Email: info@cascadeadventures.com</p>
+                </div>
+            </article>
+        </div>
+        
+        <section>
+            <div class="gallery">
+                <div class="gbanner">
+                    <h2>Employee Profiles</h2>
+                </div>
+                <div class="gpics2">
+                        <img src="images/amy-profile.png" alt="Whitewater Rafting Picture">
+                    <figure>
+                        <figcaption>Amy - River Raft Guide</figcaption>
+                    </figure>
+                </div>
+                <div class="gpics3">
+                        <img src="images/david-profile.png" alt="Whitewater Rafting Picture">
+                    <figure>
+                        <figcaption>David - River Raft Guide</figcaption>
+                    </figure>
+                </div>
+                <div class="propic4">
+                        <img src="images/kim-profile.png" alt="Whitewater Rafting Picture">
+                    <figure>
+                        <figcaption>Kim - Safety Instructor</figcaption>
+                    </figure>
+                </div>
+                <div class="gpics1">
+                        <img src="images/robert-profile.png" alt="Whitewater Rafting Picture">
+                    <figure>
+                        <figcaption>Robert - Senior Guide</figcaption>
+                    </figure>
+                </div>
+                <div class="propic5">
+                        <img src="images/brian-profile.png" alt="Whitewater Rafting Picture">
+                    <figure>
+                        <figcaption>Brian - Kayak Instructor</figcaption>
+                    </figure>
+                </div>
+                <div class="propic6">
+                        <img src="images/olivia-profile.png" alt="Whitewater Rafting Picture">
+                    <figure>
+                        <figcaption>Olivia - River Raft Guide</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <div class="inquiry">
+            <div class="ibanner">
+                <h2>Contact Us</h2>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comments</legend>
+                    <div class="form-item column1">
+                        <p>Reason for contact:</p>
+                        <div>
+                            <input type="radio" id="reason1" name="reason" value="General Inquiry" checked>
+                            <label for="reason1">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reason2" name="reason" value="Reservation Question">
+                            <label for="reason2">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reason3" name="reason" value="Website Suggestion">
+                            <label for="reason3">Website Suggestion</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reason4" name="reason" value="Other">
+                            <label for="reason4">Other</label>
+                        </div>
+                    </div>
+                    <div class="check">
+                        <label for="sub"><input type="checkbox" id="sub" name="sub"> Subscribe to newsletter</label>
+                    </div>
+                    
+                    <div class="form-item">
+                        <label for="feedback">Send us a message:</label>
+                        <textarea id="feedback" name="feedback" rows="3" placeholder="Enter message here"></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Form</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="foot">
+        <div class="copyright">
+            <p>&copy; 2024 🌊 Cascade Mountain Whitewater Rafting 🌊 Eric Arndt</p>
+        </div>
+        <div class="socials">
+            <nav class="social-links">
+                <a href="https://facebook.com">
+                    <img src="images/Facebook-logo.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/X-logo-black.png" alt="Twitter / X">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram-Logo.png" alt="Instagram">
+                </a>
+            </nav>
+        </div>
+    </footer>
+
+  </body>
+  <!--Last modified on 02/01/2024-->
+
+</html>
