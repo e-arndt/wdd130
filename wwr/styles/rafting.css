@@ -76,20 +76,22 @@ header nav a:hover {
     font-size: 1.75rem;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.7);
-    width: 40%;
+    width: 750px;
     padding: .3rem;
     position: absolute;
     top: 340px;
     left: 120px;
 }
 
-
+.hero h3 {
+    margin: 0 0 0 0;
+}
 
 .hero article {
     position: absolute;
     top: 430px;
     left: 52px;
-    width: 46%;
+    width: 850px;
     color: var(--tertiary-color);
     text-align: left;
     padding: .5rem;
@@ -107,10 +109,11 @@ header nav a:hover {
 }
 
 .map {
-    width: 305px; 
-    height: auto;
+    width: 304px; 
+    height: 155px;
     float: right;
     border: 2px solid var(--tertiary-color);
+    margin-right: 7px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -118,14 +121,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--tertiary-color);
 }
 
-.hero h3 {
-    color: var(--tertiary-color);
-    font-size: 1rem;
-    text-align: left;
-    float: left;
-    margin: 30px 15px 20px 2px;
-
-}
 
 p {
     color: var(--tertiary-color);
@@ -133,20 +128,20 @@ p {
 
 .c1 {
     font-size: 1.15rem;
-    margin: 0 0 0 0;
-    padding: .2em;
+    margin: 1rem 1rem 0;
+    padding-bottom: .5em;
 }
 
 .c2 {
     font-size: 1.15rem;
-    margin: 0 0 0 2em;
-    padding-top: .4em;
+    margin: 0 1rem 0;
+    padding-bottom: .5em;
 }
 
 .c3 {
     font-size: 1.15rem;
-    margin: 0 0 0 6.4em;
-    padding-top: .4em;
+    margin: 0 1rem 0;
+    padding-bottom: .2em;
 }
 
 
@@ -373,16 +368,15 @@ button:hover {
 .foot {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.95fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 5px;
     
 }
 
 .copyright {
     grid-column: 1;
     grid-row: 1;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-right: auto;
 }
 
@@ -390,7 +384,7 @@ button:hover {
 .socials {
     grid-column: 2;
     grid-row: 1;
-    margin-left: 2px;
+    margin-left: 10px;
     margin-right: auto;
 }
 
@@ -399,8 +393,8 @@ button:hover {
 .social-links img {
     height: auto;
     width: 42px;
-    padding: 15px;
-    margin-bottom: 4px;
+    padding: 5px;
+    margin: 0 0 4px 0;
 }
 
 a {
