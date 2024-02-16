@@ -110,6 +110,13 @@ header nav a:hover {
     margin-left: 5px;
 }
 
+.hero article p {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px 0px 0px 10px;
+    font-size: 1.1rem;
+}
+
 .map {
     width: 304px; 
     height: 155px;
@@ -286,6 +293,7 @@ p {
     margin-bottom: 20px;
 }
 
+
 .trip {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -385,6 +393,59 @@ td {
     font-size: 1rem;
 }
 
+.call article {
+    position: relative;
+    top: 30px;
+    left: 32px;
+    width: 850px;
+    color: var(--tertiary-color);
+    text-align: left;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+.call article img {
+    width: auto; 
+    height: 110px;
+    margin: 0 5px 10px 5px;
+    float: right;
+    
+}
+
+.call h3 {
+    padding: 5px 1px 5px;
+    margin: 0 5px 1px 15px;
+    font-size: 1.4rem;
+}
+
+.call {
+    padding-bottom: 1rem;
+}
+
+.book3 button {
+    margin: .75rem 5rem .5rem 15.5rem;
+    background-color: var(--tertiary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .35em .9em .35em;
+}
+
+
+.book3 button:hover {
+    margin: .75rem 5rem .5rem 15.5rem;
+    background-color: var(--accent2-color);
+    color: ivory;
+}
+
+.book3 form {
+    display: inline;
+    width: 0;
+    border: 0;
+    background-color: rgba(145, 218, 238, 0.0);
+}
 
 form {
     width: 750px;
