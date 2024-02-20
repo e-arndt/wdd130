@@ -599,6 +599,20 @@ a {
     background-color: var(--secondary-color);
 }
 
+.mbox {
+    border: 3px solid var(--accent1-color);
+    box-shadow: 2px 2px 2px 1px rgba(15, 15, 16, 0.6);
+}
+
+.hbox {
+    border: 2px solid var(--tertiary-color);
+    
+}
+
+.hero-shadow {
+    box-shadow: 3px 3px 2px 1px rgba(15, 15, 16, 0.6);
+}
+
 .form-item {
     display: grid;
     align-items: center;
